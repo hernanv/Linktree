@@ -1,13 +1,15 @@
 {
-  "name": "Maya Chen",
-  "handle": "@mayachen",
-  "bio": "Designer, maker, and occasional photographer. Building useful things in public.",
-  "avatar": "MC",
+  "name": "Hernán Vionnet | Product Designer",
+  "handle": "@hernanvionnet.design",
+  "bio": "I make intuitive & stunning designs perfectly optimized for your product success",
+  "avatar": "HV",
   "avatarImage": "",
   "links": [
-    { "slug": "portfolio", "title": "View my portfolio", "url": "https://example.com/portfolio", "emoji": "✦" },
-    { "slug": "newsletter", "title": "Join the newsletter", "url": "https://example.com/newsletter", "emoji": "✉" },
-    { "slug": "instagram", "title": "Follow on Instagram", "url": "https://instagram.com/", "emoji": "◎" },
-    { "slug": "contact", "title": "Work with me", "url": "mailto:hello@example.com", "emoji": "↗" }
+    { "slug": "portfolio", "title": "Portfolio", "url": "https://short.ar/portfolio", "emoji": "✦" },
+    { "slug": "linkedin", "title": "LinkedIn", "url": "https://short.ar/linkedin", "emoji": "in" },
+    { "slug": "dribbble", "title": "Dribbble Profile", "url": "https://short.ar/dribbble", "emoji": "●" },
+    { "slug": "behance", "title": "Behance", "url": "https://short.ar/behance", "emoji": "Be" },
+    { "slug": "instagram", "title": "Instagram", "url": "https://short.ar/instagram", "emoji": "◎" },
+    { "slug": "reach-out", "title": "Reach Out", "url": "mailto:hernan.vionnet@gmail.com", "emoji": "✉" }
   ]
 }
