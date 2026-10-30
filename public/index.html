@@ -5,21 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f4f0">
   <title>Link-in-bio</title>
-  <meta name="description" content="A small corner of the internet.">
+  <meta name="description" content="I make intuitive &amp; stunning designs perfectly optimized for your product success.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Maya Chen — links">
-  <meta property="og:description" content="Designer, maker, and occasional photographer.">
+  <meta property="og:title" content="Hernán Vionnet | Product Designer — links">
+  <meta property="og:description" content="I make intuitive &amp; stunning designs perfectly optimized for your product success.">
   <meta property="og:image" content="/og.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Maya Chen — links">
-  <meta name="twitter:description" content="Designer, maker, and occasional photographer.">
+  <meta name="twitter:title" content="Hernán Vionnet | Product Designer — links">
+  <meta name="twitter:description" content="I make intuitive &amp; stunning designs perfectly optimized for your product success.">
   <meta name="twitter:image" content="/og.svg">
   <style>
     :root{color-scheme:light;--bg:#f5f4f0;--ink:#171717;--muted:#77746d;--line:rgba(23,23,23,.12);--card:rgba(255,255,255,.72);--accent:#d7f36b;--shadow:0 14px 34px rgba(20,20,20,.07)}
     @media(prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#171816;--ink:#f4f4ed;--muted:#a6a79d;--line:rgba(255,255,255,.14);--card:rgba(255,255,255,.07);--accent:#d7f36b;--shadow:0 18px 36px rgba(0,0,0,.18)}}
     *{box-sizing:border-box}html{min-height:100%;background:var(--bg)}body{margin:0;min-height:100vh;background:radial-gradient(circle at 50% -10%,rgba(215,243,107,.18),transparent 36rem),var(--bg);color:var(--ink);font:16px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-.01em}
     main{width:min(100% - 36px,520px);margin:0 auto;padding:58px 0 36px}.profile{text-align:center}.avatar{width:88px;height:88px;margin:0 auto 18px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#171717;font-size:25px;font-weight:800;letter-spacing:-.08em;box-shadow:var(--shadow)}.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover}.name{margin:0;font-size:25px;line-height:1.1;font-weight:780;letter-spacing:-.04em}.handle{margin:7px 0 0;color:var(--muted);font-size:14px}.bio{max-width:370px;margin:15px auto 30px;color:var(--muted);font-size:15px}
-    .links{display:grid;gap:12px}.link{position:relative;display:flex;align-items:center;justify-content:center;min-height:60px;padding:14px 52px;border:1px solid var(--line);border-radius:18px;background:var(--card);color:var(--ink);font-weight:650;text-decoration:none;box-shadow:0 1px 0 rgba(255,255,255,.08) inset;transition:transform .2s ease,background .2s ease,border-color .2s ease,box-shadow .2s ease}.link:hover,.link:focus-visible{transform:translateY(-2px);border-color:rgba(215,243,107,.7);background:rgba(215,243,107,.16);box-shadow:var(--shadow);outline:none}.emoji{position:absolute;left:19px;font-size:19px}.arrow{position:absolute;right:20px;color:var(--muted);font-size:19px;transition:transform .2s ease}.link:hover .arrow,.link:focus-visible .arrow{transform:translate(3px,-3px);color:var(--ink)}footer{text-align:center;margin-top:34px;color:var(--muted);font-size:12px}footer span{color:var(--accent);font-size:15px;vertical-align:-1px}
+    .links{display:grid;gap:12px}.link{position:relative;display:flex;align-items:center;justify-content:center;min-height:60px;padding:14px 52px;border:1px solid var(--line);border-radius:18px;background:var(--card);color:var(--ink);font-weight:650;text-decoration:none;box-shadow:0 1px 0 rgba(255,255,255,.08) inset;transition:transform .2s ease,background .2s ease,border-color .2s ease,box-shadow .2s ease}.link:hover,.link:focus-visible{transform:translateY(-2px);border-color:rgba(215,243,107,.7);background:rgba(215,243,107,.16);box-shadow:var(--shadow);outline:none}.emoji{position:absolute;left:19px;font-size:19px}.icon{position:absolute;left:19px;width:19px;height:19px;display:grid;place-items:center}.icon svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.arrow{position:absolute;right:20px;color:var(--muted);font-size:19px;transition:transform .2s ease}.link:hover .arrow,.link:focus-visible .arrow{transform:translate(3px,-3px);color:var(--ink)}footer{text-align:center;margin-top:34px;color:var(--muted);font-size:12px}footer a{color:inherit;text-decoration:underline;text-underline-offset:3px}footer span{color:var(--accent);font-size:15px;vertical-align:-1px}
     @media(min-width:600px){main{padding-top:82px}}
   </style>
 </head>
@@ -28,14 +28,15 @@
     <section class="profile" aria-labelledby="name">
       <div class="avatar" id="avatar" aria-hidden="true">MC</div>
       <h1 class="name" id="name">Maya Chen</h1>
-      <p class="handle" id="handle">@mayachen</p>
+      <p class="handle" id="handle"><a href="/go/instagram">@mayachen</a></p>
       <p class="bio" id="bio">Designer, maker, and occasional photographer. Building useful things in public.</p>
     </section>
     <nav class="links" id="links" aria-label="Links"></nav>
-    <footer>made with <span>●</span> a little internet</footer>
+    <footer>Made with <span>♥️</span> by <a href="/go/portfolio">Hernán Vionnet</a></footer>
   </main>
   <script>
-    fetch('/links.json').then(r=>r.json()).then(data=>{document.title=data.name+' — links';document.getElementById('name').textContent=data.name;document.getElementById('handle').textContent=data.handle||'';document.getElementById('bio').textContent=data.bio||'';if(data.avatarImage){document.getElementById('avatar').innerHTML='<img alt="" src="'+data.avatarImage.replace(/"/g,'&quot;')+'">'}else{document.getElementById('avatar').textContent=data.avatar||data.name.split(' ').map(n=>n[0]).join('')}document.getElementById('links').innerHTML=data.links.map(link=>'<a class="link" href="/go/'+encodeURIComponent(link.slug)+'"><span class="emoji">'+(link.emoji||'')+'</span><span>'+link.title+'</span><span class="arrow">↗</span></a>').join('')}).catch(()=>{});
+    const icons={instagram:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"></circle></svg>',dribbble:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M4.8 8.2c4.2 2.2 8.9 2.6 14.4 1.3M7.2 18.5c2.4-3.8 5-6.2 8.1-7.8M14.1 20.7c-.5-3.1-1.7-6.2-3.8-9.2M6.4 5.4c3.2 1.1 6.1 1.2 9 .4"></path></svg>'};
+    fetch('/links.json').then(r=>r.json()).then(data=>{document.title=data.name+' — links';document.getElementById('name').textContent=data.name;const handle=document.getElementById('handle');handle.innerHTML='<a href="/go/instagram">'+(data.handle||'')+'</a>';document.getElementById('bio').textContent=data.bio||'';if(data.avatarImage){document.getElementById('avatar').innerHTML='<img alt="" src="'+data.avatarImage.replace(/"/g,'&quot;')+'">'}else{document.getElementById('avatar').textContent=data.avatar||data.name.split(' ').map(n=>n[0]).join('')}document.getElementById('links').innerHTML=data.links.map(link=>'<a class="link" href="/go/'+encodeURIComponent(link.slug)+'">'+(link.icon?'<span class="icon '+link.icon+'">'+(icons[link.icon]||'')+'</span>':'<span class="emoji">'+(link.emoji||'')+'</span>')+'<span>'+link.title+'</span><span class="arrow">↗</span></a>').join('')}).catch(()=>{});
   </script>
 </body>
 </html>
