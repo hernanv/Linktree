@@ -7,7 +7,7 @@
   "links": [
     { "slug": "portfolio", "title": "Portfolio", "url": "https://short.ar/portfolio", "emoji": "✦" },
     { "slug": "linkedin", "title": "LinkedIn", "url": "https://short.ar/linkedin", "emoji": "in" },
-    { "slug": "dribbble", "title": "Dribbble Profile", "url": "https://short.ar/dribbble", "emoji": "●" },
+    { "slug": "dribbble", "title": "Dribbble Profile", "url": "https://short.ar/bbb", "emoji": "●" },
     { "slug": "behance", "title": "Behance", "url": "https://short.ar/behance", "emoji": "Be" },
     { "slug": "instagram", "title": "Instagram", "url": "https://short.ar/instagram", "emoji": "◎" },
     { "slug": "reach-out", "title": "Reach Out", "url": "mailto:hernan.vionnet@gmail.com", "emoji": "✉" }
