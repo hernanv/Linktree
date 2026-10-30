@@ -65,6 +65,9 @@ const server = http.createServer((req, res) => {
     if (!authorized(req)) { res.writeHead(401, { 'www-authenticate': 'Basic realm="Link stats"' }); return res.end('Authentication required'); }
     return send(res, 200, statsPage());
   }
+  if (url.pathname === '/links.json') {
+    return send(res, 200, fs.readFileSync(LINKS_FILE), 'application/json; charset=utf-8');
+  }
   const requested = url.pathname === '/' ? '/index.html' : url.pathname;
   const file = path.normalize(path.join(PUBLIC, requested));
   if (!file.startsWith(PUBLIC) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) return send(res, 404, 'Not found', 'text/plain; charset=utf-8');
