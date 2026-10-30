@@ -1,0 +1,13 @@
+{
+  "name": "Maya Chen",
+  "handle": "@mayachen",
+  "bio": "Designer, maker, and occasional photographer. Building useful things in public.",
+  "avatar": "MC",
+  "avatarImage": "",
+  "links": [
+    { "slug": "portfolio", "title": "View my portfolio", "url": "https://example.com/portfolio", "emoji": "✦" },
+    { "slug": "newsletter", "title": "Join the newsletter", "url": "https://example.com/newsletter", "emoji": "✉" },
+    { "slug": "instagram", "title": "Follow on Instagram", "url": "https://instagram.com/", "emoji": "◎" },
+    { "slug": "contact", "title": "Work with me", "url": "mailto:hello@example.com", "emoji": "↗" }
+  ]
+}

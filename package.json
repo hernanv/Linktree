@@ -1,0 +1,12 @@
+{
+  "name": "link-in-bio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A zero-third-party link-in-bio page with local click tracking.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
